@@ -32,11 +32,12 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 import rosegraphics as rg
 
 window = rg.TurtleWindow()
-justin = rg.SimpleTurtle()
+justin = rg.SimpleTurtle('turtle')
 justin.pen = rg.Pen('blue', 30)
 justin.speed = 8
 ashley = rg.SimpleTurtle()
 ashley.pen = rg.Pen('red', 30)
+ashley.speed = 5
 
 justin.forward(200)
 ashley.backward(200)
