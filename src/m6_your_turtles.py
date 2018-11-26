@@ -10,7 +10,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ########################################################################
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -47,5 +47,12 @@ for k in range(3):
     justin.draw_circle(size)
     ashley.draw_square(size)
     size = size - 50
+justin.right(90)
+justin.forward(250)
+justin.left(50)
+window.tracer(100)
+for k in range(300):
+    justin.left(85)
+    justin.forward(k)
 
 window.close_on_mouse_click()
