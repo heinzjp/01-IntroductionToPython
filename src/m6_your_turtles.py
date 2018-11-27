@@ -47,10 +47,12 @@ for k in range(3):
     justin.draw_circle(size)
     ashley.draw_square(size)
     size = size - 50
+justin.pen_up()
 justin.right(90)
 justin.forward(250)
 justin.left(50)
-window.tracer(100)
+justin.pen_down()
+window.tracer(200)
 for k in range(300):
     justin.left(85)
     justin.forward(k)
